@@ -8,7 +8,8 @@
 import UIKit
 
 class InputNameViewController: UIViewController {
-    @IBOutlet weak var inputName: UILabel!
+   
+    @IBOutlet weak var greetingLabel: UILabel!
     
     var dispName: String = ""
     
@@ -17,7 +18,7 @@ class InputNameViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        inputName.text = "こんにちは、\(dispName)さん"
+        greetingLabel.text = "こんにちは、\(dispName)さん"
     }
     
 

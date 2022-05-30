@@ -92,7 +92,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="pbt-NE-eOZ"/>
                     <connections>
-                        <outlet property="inputName" destination="8Ox-1g-BQx" id="xVX-0Z-ND2"/>
+                        <outlet property="greetingLabel" destination="8Ox-1g-BQx" id="gNg-uT-825"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wT-hm-cep" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
